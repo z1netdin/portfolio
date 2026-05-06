@@ -387,6 +387,14 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* Project list */
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 /* Skills */
 
 .skills-grid {
@@ -690,14 +698,6 @@ body {
 .copy-email:focus-visible {
     outline: 2px solid var(--text-3);
     outline-offset: 2px;
-}
-
-/* Project list */
-
-.project-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
 }
 
 /* Reduced motion */
